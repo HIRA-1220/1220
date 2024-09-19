@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なWebサイト</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #440000; /* ヘッダーの背景色を変更 */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            color: #cc0000; /* メインコンテンツの文字色を変更 */
+        }
+
+        footer {
+            background-color: #440000; /* フッターの背景色を変更 */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>私のお菓子作り</h1>
+    </header>
+    
+    <main>
+        <h2>最近作ったお菓子</h2>
+        <a>カップケーキ</a>
+        
+        <h2>次作りたいお菓子</h2>
+        <a>チョコレートブラウニー</a>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 ウェブサイト</p>
+    </footer>
+</body>
+</html>
